@@ -1,0 +1,14 @@
+# ~/.tmuxinator/me.yml
+# you can make as many tabs as you wish...
+
+project_name: Tmuxinator
+project_root: ~/rails_projects/sample_app
+socket_name: foo # Not needed.  Remove to use default socket
+tabs:
+  - workspace:
+      layout: 4815,265x47,0,0{82x47,0,0[82x37,0,0,41,82x9,0,38,43],126x47,83,0,42,55x47,210,0,44}
+      panes:
+        - rails c
+        - rails s
+        - vim
+        - 
